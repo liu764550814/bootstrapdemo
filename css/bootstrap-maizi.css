@@ -1,0 +1,222 @@
+body{
+    font-family: sans-serif;
+
+}
+
+.navbar-default{
+    background-color: #fff;
+    border:none;
+    box-shadow: 0px 2px 8px 0px rgba(50,50,50, 0.88)
+}
+.navbar-default .navbar-brand {
+    font-size: 26px;
+    font-weight: bold;
+    color: #40d2b1;
+    height: 70px;
+    line-height: 35px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #666;
+    font-size: 15px;
+    font-weight: 70px;
+    line-height: 35px;
+}
+
+.navbar-default .navbar-toggle:hover{
+    border-color: #40d2b1;
+    background-color: rgb(69, 210, 184);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #40d2b1;
+}
+
+/* home */
+#home{
+    margin-top: 70px;
+    background:url("../images/home-bg.jpg");
+    background-size:cover;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+
+}
+
+.lvjing{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, 0.7)
+}
+#home h1{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+#home p{
+    font-weight: 400;
+    line-height: 35px;
+}
+#home img{
+    margin-top:30px;
+    display: inline-block; 
+}
+
+#bbs{
+    padding: 80px;
+    text-align: center;
+}
+
+#bbs a{
+    color: black;
+    text-decoration: none;
+}
+
+#bbs img{
+    margin: 0 auto;
+}
+
+#bbs h3{
+    font-weight: bold;
+}
+
+#bbs .col-md-4:hover {
+    width: 33.33333333%;
+    padding: 15px;
+    background: #f1f1f1;
+    box-shadow: 1px 1px 4px #ccc;
+}
+
+/* html5*/
+#html5,#bootstrap{
+    background: #f8f8f8;
+    padding: 80px 0;
+}
+#html5 h2,#bootstrap h2{
+    font-weight: bold;
+}
+
+
+.glyphicon-grain {
+    content: "\e239";
+    background-color: rgb(64,210,177);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 20px;
+}
+
+
+#course {
+    padding:20px 0; 
+    background: #f8f8f8;
+    text-align: center;
+}
+#course h2{
+    font-weight: bold;
+    padding-bottom:20px; 
+}
+
+a.btn.btn-primary {
+    background: transparent;
+    border-radius: 0;
+    color: rgb(64,210,177);
+    border-color: rgb(64,210,177);
+    margin: 20px 0;
+    padding: 10px 50px;
+}
+a.btn.btn-primary:hover{
+    background:  rgb(64,210,177);
+    color: white;
+    border-color: rgb(64,210,177);
+    transition: all 0.3s;
+}
+
+#app{
+    margin: 40px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+#app button.btn.btn-primary {
+    background: rgb(64,210,177);
+    border-color: rgb(64,210,177);
+    border-radius: 0;
+    padding: 6px 40px;
+    
+}
+
+
+#app button.btn.btn-primary:hover {
+    background: rgb(44, 142, 120);
+    /* 过度时间0.3秒 */
+    transition: all 0.3s;
+}
+
+
+#contact{
+    background: url("../images/contact-bg.png") no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#contact h2{
+    font-weight: bold;
+    padding: 20px 0;
+    margin-top: 0;
+}
+#contact p{
+    padding: 10px 0;
+}
+
+#contact .form-control {
+    border-radius: 0;
+    border: none;
+    margin: 20px;
+}
+
+#contact textarea{
+    height: auto;
+}
+
+#contact input[type="submit"]{
+    background: #40d2b1;
+    color: #fff;
+    font-weight: bold;
+}
+
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/* footer */
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
